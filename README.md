@@ -1,2 +1,2 @@
-# RandomDropperMod
-The Random Dropper Mod for Minecraft
+# PeriodicDropperMod
+The Periodic Dropper Mod for Minecraft
