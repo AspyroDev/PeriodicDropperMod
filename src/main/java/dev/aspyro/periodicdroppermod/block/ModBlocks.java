@@ -21,6 +21,10 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, PeriodicDropperMod.MOD_ID);
 
+    public static final RegistryObject<Block> PERIODIC_REDSTONE_DROPPER =
+            registerBlock("periodic_redstone_dropper_mk1",
+                    () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                            .harvestLevel(1).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
