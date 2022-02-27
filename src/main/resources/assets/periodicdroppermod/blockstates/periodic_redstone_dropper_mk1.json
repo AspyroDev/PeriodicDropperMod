@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "periodicdroppermod:block/periodic_droppers" }
+  }
+}
