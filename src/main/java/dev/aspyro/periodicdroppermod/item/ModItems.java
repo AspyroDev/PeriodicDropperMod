@@ -18,5 +18,5 @@ public class ModItems {
     }
 
     public static final RegistryObject<Item> REDSTONE_CORE = ITEMS.register("redstone_core",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.PERIODIC_DROPPER_GROUP)));
 }
