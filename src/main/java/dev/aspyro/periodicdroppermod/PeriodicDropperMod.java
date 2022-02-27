@@ -1,5 +1,6 @@
 package dev.aspyro.periodicdroppermod;
 
+import dev.aspyro.periodicdroppermod.block.ModBlocks;
 import dev.aspyro.periodicdroppermod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -33,6 +34,7 @@ public class PeriodicDropperMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
