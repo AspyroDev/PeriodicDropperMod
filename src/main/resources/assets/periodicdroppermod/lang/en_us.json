@@ -2,6 +2,7 @@
   "item.periodicdroppermod.redstone_core" : "Redstone core",
 
   "block.periodicdroppermod.periodic_redstone_dropper_mk1" : "Periodic Redstone Dropper MK1",
+  "block.periodicdroppermod.periodic_redstone_dropper_mk2" : "Periodic Redstone Dropper MK2",
 
   "itemGroup.periodicDropperTab": "Periodic Dropper"
 }
